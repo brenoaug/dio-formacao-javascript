@@ -1,8 +1,11 @@
+//entrada do programa
 const altura = 1.72;
-let peso = 72;
+const peso = 73;
+
+
 let imc;
 
-imc = peso / (altura * altura);
+imc = peso / Math.pow(altura, 2);
 
 switch (true) {
   case (imc <= 18.5):
