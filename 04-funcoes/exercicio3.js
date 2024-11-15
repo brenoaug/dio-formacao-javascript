@@ -36,5 +36,5 @@ function main(tipoPagamento){
   console.log(`O valor do produto é R$${valorEtiqueta} e você escolheu pagar com ${tipoPagamento}, você terá ${definindoFormaPagamento(tipoPagamento)} e o valor final da compra será de R$${definindoValorFinal(tipoPagamento)} reais`);
 }
 
-let valorEtiqueta = 100;
+const valorEtiqueta = 100;
 main('pix');
